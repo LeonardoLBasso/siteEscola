@@ -1,44 +1,6 @@
 :root{
     --color-blue:#09f;
 }
-.caixa{
-    padding-left: 5px;
-    border-radius: 1px;
-    margin: 0 auto;
-}
-.curso{
-    border-left: 2px solid var(--color-blue);
-    margin-bottom: 5px;
-}
-p.caixaAviso {
-    border: 2px solid #694400;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #faa302;
-    color: #694400;
-    padding: 10px;
-    box-sizing: content-box;
-}
-.caixaAviso.footer{
-    border: 2px solid #694400;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    background-color: #faa302;
-    color: #694400;
-    padding: 10px;
-    text-align: center;
-    box-sizing: border-box;
-}
-h3.caixa.exatas {
-    border-left: 2px solid var(--color-blue);
-    margin: 10px 0px auto;
-}
-h3.caixa.humanas {
-    border-left: 2px solid var(--color-blue);
-    margin: 10px 0px auto;
-}
 .bolinha::before {
     content: "\2022";
     color: var(--color-blue);
@@ -50,17 +12,14 @@ h3.caixa.humanas {
     text-align: center;
     display: block;
 }
-.texto{
-    background-color: silver;
-}
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      background-color: silver;
     } 
 }
 @media only screen and (min-width: 601px) {
     body{
-        background-color: silver;
+        background-color: white;
     }
 }
 
